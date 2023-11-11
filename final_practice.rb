@@ -50,13 +50,16 @@ end
 
 greet_person("Laura", "Rocio", "Vega")
 greet_person("Luis", "Eduardo", "S")
-greet_person("Isaac", "", "Sguerra")
+greet_person("Isaac", "", "Sguerra") 
 # What is the return value of your method?
     #The return value of greet_person method is defined by 3 parameters: first_name, 
     # middle_name and last_name. In the example with "Laura" "Rocio" "Vega" as parameters,
     # greet_person will return "Hi, Laura Rocio Vega".
 # How many arguments did you pass your method?
+    # I passed the method with 3 arguments:("Laura", "Rocio", "Vega"), ("Luis", "Eduardo", "S")
+    # and ("Isaac", "", "Sguerra"), Isaac does not have a middle name, the parameter is "".
 # What data type was your argument(s)?
+    # My arguments were strings
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
