@@ -13,18 +13,32 @@ end
 greeting
 
 # What is the return value of your method?
-# The return value of greeting method is the content of the variable class_greet, which is
-# "Hi! welcome to class"
+    # The return value of greeting method is the content of the variable class_greet, which 
+    # is "Hi! welcome to class"
 
 # How many arguments did you pass your method?
-# I used one argument in the greeting method
-
+    # I evaluated the greeting method with no arguments, this was a general greeting with no 
+    # parameters.
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
+def custom_greeting (name)
+   puts greet_for_name="Hi, #{name}!"
+end
+
+custom_greeting ("Laura Tocaya")
+custom_greeting ("Rachel")
+custom_greeting ("Laura and Rachel")
 # What is the return value of your method?
+    # The return value of custom_greeting method is defined by the parameter name, in the 
+    # example custom_greeting with "Laura Tocaya" as parameter will return "Hi, Laura Tocaya!",
+    # and custom greeting ("Rachel") will return "Hi, Rachel!"
+
 # How many arguments did you pass your method?
+    # I passed the method with 3 arguments: "Laura Tocaya", "Rachel" and "Laura and Rachel".
+
 # What data type was your argument(s)?
+    # My arguments were strings
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
