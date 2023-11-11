@@ -78,7 +78,13 @@ puts swimming_teachers_name.match?(school_teachers_name)
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+floor_number = 5
+total_number_residents = 36
 
+puts total_number_residents.even?
+# The even? method is called on the total_number_residents variable, which stores the integer 5
+# The return value of the method even? is true if the data stored in total_number_residents is even
+# In this example, the return value is false, because 5 is an odd integer.
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
