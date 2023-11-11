@@ -111,3 +111,11 @@ print stacys_class_students & absent_students_today
 # stacys_class_students are absent today, the return value is the thread["LaurenD", "SkyT"].
 # The print command returns the value of (["LaurenD", "SkyT"]) to the console.
 
+print absent_students_today. delete ("MariaJ")
+puts absent_students_today
+# The delete method is called on the absent_students_today variable, which stores an array, 
+# with the parameter "MariaJ" because MariaJ arrived late. 
+# The return value of the method delete is the element named as parameter.
+# In this example, the return value is "MariaJ" followed by ["LaurenD", "AmayaR", "JoselynS", "SkyT"]
+# new array contained in the variable absent_students_today after removing the element
+# "MariaJ".
