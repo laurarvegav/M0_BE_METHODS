@@ -10,10 +10,14 @@ def greeting
     puts class_greet = "Hi! welcome to class"
 end
 
-puts greeting
+greeting
 
 # What is the return value of your method?
+# The return value of greeting method is the content of the variable class_greet, which is
+# "Hi! welcome to class"
+
 # How many arguments did you pass your method?
+# I used one argument in the greeting method
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
