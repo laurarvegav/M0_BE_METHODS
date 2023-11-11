@@ -109,3 +109,5 @@ print stacys_class_students & absent_students_today
 # The & method returns a new Array containing each element found in both stacys_class_students
 # and absent_students_today. In this example, given that we need to find which students from 
 # stacys_class_students are absent today, the return value is the thread["LaurenD", "SkyT"].
+# The print command returns the value of (["LaurenD", "SkyT"]) to the console.
+
