@@ -6,6 +6,12 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
+def greeting
+    puts class_greet = "Hi! welcome to class"
+end
+
+puts greeting
+
 # What is the return value of your method?
 # How many arguments did you pass your method?
 
