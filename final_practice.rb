@@ -83,7 +83,6 @@ square(250)
 # What data type was your argument(s)?
     # My arguments were integers
 
-
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
