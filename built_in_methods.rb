@@ -9,7 +9,7 @@
 "Hello World".downcase
 
 
-"Hello World".include?("Hello")
+puts "Hello World".include?("Hello")
 # The include method is called on the string "Hello World" with the parameter "Hello"
 
 
