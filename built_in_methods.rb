@@ -21,8 +21,10 @@
 # No arguments passed, end_with evaluates if it is true or false that the parameter is the last 
 # word of the string object. The return value was False
 
-puts "Hello World".end_with?("rld")
+"Hello World".end_with?("rld")
 # The end.with? method is called on the object string "Hello World" with the parameter "rld"
+# No arguments passed, end_with evaluates if it is true or false that the parameter is  in the
+# last word of the string object. The return value was True
 
 12.even?
 
