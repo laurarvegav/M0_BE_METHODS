@@ -82,10 +82,16 @@ total_number_residents = 36
 floor_number = 5
 
 puts total_number_residents.even?
-# The even? method is called on the total_number_residents variable, which stores the integer 5
+# The even? method is called on the total_number_residents variable, which stores the integer 36
 # The return value of the method even? is true if the data stored in total_number_residents is even
 # In this example, the return value is true, because 36 is an even integer.
 # The puts command returns the value of even? method (true) to the console.
+
+puts floor_number.succ
+# The succ method is called on the floor_number variable, which stores the integer 5
+# The return value of the method succ is the successor integer of the number contained 
+# in the called variable, equivalent to adding a unit to the called variable.
+# In this example, the return value is 6, because 5 + 1 = 6.
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
