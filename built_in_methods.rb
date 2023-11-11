@@ -32,7 +32,7 @@
 # My prediction was right, the even? method evaluates if is true or false that the parameter
 # is even
 
-puts 18.next
+18.next
 # The even? method is called on the parameter integer 18, I can predict it will give us
 # the integer that goes next to the parameter, in this case 19
 # My prediction was right, the next method prints the next integer to the parameter. The
