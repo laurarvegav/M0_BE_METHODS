@@ -9,8 +9,10 @@
 "Hello World".downcase
 
 
-puts "Hello World".include?("Hello")
-# The include method is called on the string "Hello World" with the parameter "Hello"
+"Hello World".include?("Hello")
+# The include? method is called on the string "Hello World" with the parameter "Hello"
+# I expected it to print True or False, given that the method ends with '?' No arguments passed
+# The method evaluates if it is true or false that the parameter is included on the string object
 
 
 "Hello World".end_with?("Hello")
