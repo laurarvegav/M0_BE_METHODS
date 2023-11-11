@@ -13,10 +13,13 @@
 # The include? method is called on the string "Hello World" with the parameter "Hello"
 # I expected it to print True or False, given that the method ends with '?' No arguments passed
 # The method evaluates if it is true or false that the parameter is included on the string object
+# The return value was True
 
 
 "Hello World".end_with?("Hello")
-
+# The iend.with? method is called on the object string "Hello World" with the parameter "Hello"
+# No arguments passed, end_with evaluates if it is true or false that the parameter is the last 
+# word of the string object. The return value was False
 
 "Hello World".end_with?("rld")
 
