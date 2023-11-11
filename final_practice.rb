@@ -65,6 +65,14 @@ greet_person("Isaac", "", "Sguerra")
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
+def square (lenght)
+    squares_area = lenght * lenght
+    puts "The area of a square that has #{lenght}cm as lenght is #{squares_area} squared centimeters"
+end
+
+square(7)
+square(10)
+square(250)
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
