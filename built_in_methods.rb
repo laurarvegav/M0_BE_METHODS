@@ -69,6 +69,7 @@ puts swimming_teachers_name.match?(school_teachers_name)
 # swimming_teachers_name and the data in the pattern school_teachers_name, which stores the
 # string "Stacy". In this example, the return value is false, because the data contained in 
 # swimming_teachers_name does not mactch the data contained in school_teachers_name.
+# The puts command prints the return value of match? method (false) to the console.
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
