@@ -54,7 +54,13 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+school_teachers_name = "Stacy"
+swimming_teachers_name = "Max"
 
+puts school_teachers_name.size
+# The size method is called on the school_teachers_name variable, which stores the string "Stacy"
+# The return value of the method size is the number of characters contained in the called value
+# In this example, the return value is 5, because "stacy" is a string of 5 characters
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
