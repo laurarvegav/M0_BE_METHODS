@@ -17,12 +17,12 @@
 
 
 "Hello World".end_with?("Hello")
-# The iend.with? method is called on the object string "Hello World" with the parameter "Hello"
+# The end.with? method is called on the object string "Hello World" with the parameter "Hello"
 # No arguments passed, end_with evaluates if it is true or false that the parameter is the last 
 # word of the string object. The return value was False
 
-"Hello World".end_with?("rld")
-
+puts "Hello World".end_with?("rld")
+# The end.with? method is called on the object string "Hello World" with the parameter "rld"
 
 12.even?
 
