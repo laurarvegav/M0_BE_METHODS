@@ -49,7 +49,12 @@ def greet_person (first_name, middle_name, last_name)
 end
 
 greet_person("Laura", "Rocio", "Vega")
+greet_person("Luis", "Eduardo", "S")
+greet_person("Isaac", "", "Sguerra")
 # What is the return value of your method?
+    #The return value of greet_person method is defined by 3 parameters: first_name, 
+    # middle_name and last_name. In the example with "Laura" "Rocio" "Vega" as parameters,
+    # greet_person will return "Hi, Laura Rocio Vega".
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
 
