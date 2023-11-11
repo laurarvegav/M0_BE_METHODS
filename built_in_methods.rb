@@ -108,14 +108,16 @@ print stacys_class_students & absent_students_today
 # on the stacys_class_students variable, which stores an array.
 # The & method returns a new Array containing each element found in both stacys_class_students
 # and absent_students_today. In this example, given that we need to find which students from 
-# stacys_class_students are absent today, the return value is the thread["LaurenD", "SkyT"].
-# The print command returns the value of (["LaurenD", "SkyT"]) to the console.
+# stacys_class_students are absent today, the return value is the thread["SkyT" , "LaurenD"].
+# The print command returns the value of (["SkyT", LaurenD"]) to the console.
 
-print absent_students_today. delete ("MariaJ")
-puts absent_students_today
+puts absent_students_today. delete ("MariaJ")
+print absent_students_today
 # The delete method is called on the absent_students_today variable, which stores an array, 
 # with the parameter "MariaJ" because MariaJ arrived late. 
 # The return value of the method delete is the element named as parameter.
-# In this example, the return value is "MariaJ" followed by ["LaurenD", "AmayaR", "JoselynS", "SkyT"]
-# new array contained in the variable absent_students_today after removing the element
-# "MariaJ".
+# In this example, the return value is "MariaJ" followed by 
+# ["LaurenD", "AmayaR", "JoselynS", "SkyT"], which is the new array contained in the variable 
+# absent_students_today after removing the element "MariaJ".
+# The return value of the command puts is ("MariaJ") followed by the return value of the 
+# command print, (["LaurenD", "AmayaR", "JoselynS", "SkyT"])
