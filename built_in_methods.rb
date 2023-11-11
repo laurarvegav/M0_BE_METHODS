@@ -92,6 +92,7 @@ puts floor_number.succ
 # The return value of the method succ is the successor integer of the number contained 
 # in the called variable, equivalent to adding a unit to the called variable.
 # In this example, the return value is 6, because 5 + 1 = 6.
+# The puts command returns the value of succ method (6) to the console.
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
