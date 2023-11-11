@@ -74,8 +74,14 @@ square(7)
 square(10)
 square(250)
 # What is the return value of your method?
+    # The return value of the square method is defined by the variable lenght, the method
+    # calculates the area of a square that has lenght as parameter. In the example with 
+    # lenght=7, the return will be "The area of a square that has 7cm as lenght is 49 
+    # squared centimeters" because 7*7=49.
 # How many arguments did you pass your method?
+    #  # I passed the method with 3 arguments: 7, 10 and 250.
 # What data type was your argument(s)?
+    # My arguments were integers
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
