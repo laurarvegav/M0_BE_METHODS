@@ -33,7 +33,8 @@
 # is even
 
 puts 18.next
-# The even? method is called on the parameter integer 18
+# The even? method is called on the parameter integer 18, I can predict it will give us
+# the integer that goes next to the parameter, in this case 19
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
