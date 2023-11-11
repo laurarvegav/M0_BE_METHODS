@@ -32,8 +32,8 @@
 # My prediction was right, the even? method evaluates if is true or false that the parameter
 # is even
 
-18.next
-
+puts 18.next
+# The even? method is called on the parameter integer 18
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
