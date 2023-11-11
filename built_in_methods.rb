@@ -63,6 +63,14 @@ puts school_teachers_name.size
 # In this example, the return value is 5, because "stacy" is a string of 5 characters
 # The puts command prints the return value of size (5) to the console.
 
+puts swimming_teachers_name.match?(school_teachers_name)
+# The match? method is called on the swimming_teachers_name variable, which stores the string
+# "Max". The match? method returns true if a match is found for the data in the 
+# swimming_teachers_name and the data in the pattern school_teachers_name, which stores the
+# string "Stacy". In this example, the return value is false, because the data contained in 
+# swimming_teachers_name does not mactch the data contained in school_teachers_name.
+
+
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
 # Call a different built-in Ruby method on each of your variables. 
