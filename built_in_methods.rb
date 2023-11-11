@@ -100,4 +100,12 @@
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+stacys_class_students = ["JackM", "NoahX", "SkyT", "LaurenD", "TobyG"]
+absent_students_today = ["LaurenD", "MariaJ", "AmayaR", "JoselynS", "SkyM"]
 
+puts stacys_class_students & absent_students_today
+# The & method is called on the absent_students_today variable, which stores an array and
+# on the stacys_class_students variable, which stores an array.
+# The & method returns a new Array containing each element found in both stacys_class_students
+# and absent_students_today. In this example, given that we need to find which students from 
+# stacys_class_students are absent today, the return value is an array ["LaurenD"].
