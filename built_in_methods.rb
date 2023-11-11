@@ -26,8 +26,9 @@
 # No arguments passed, end_with evaluates if it is true or false that the parameter is  in the
 # last word of the string object. The return value was True
 
-12.even?
-
+puts 12.even?
+# The even? method is called on the integer 12, I could predict it evaulates if the parameter
+# is even, and would show result True
 
 18.next
 
